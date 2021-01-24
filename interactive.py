@@ -555,7 +555,7 @@ class Run():
 
         for i in sorted(benchmarksnum, key=int, reverse=False):
             try:
-                #i = 11
+                # i = 11
                 print ("\n\n---------------------\ndoing benchmark #"+str(i))
                 
                 # somehow we cannot generate sketch for benchmark 3
